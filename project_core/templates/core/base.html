@@ -1,0 +1,11 @@
+{% extends "core/base.html" %}
+{% load static %}
+{% block styles %}
+{{ block.super }}
+<link href="{% static 'project_core/build/css/main.min.css' %}" rel="stylesheet">
+{% endblock styles %}
+
+{% block scripts_footer %}
+{{ block.super }}
+<script src="{% static 'project_core/build/js/app.min.js' %}"></script>
+{% endblock scripts_footer %}

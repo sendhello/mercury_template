@@ -1,0 +1,10 @@
+.idea
+django-fabcms-example.iml
+*.py[co]
+__pycache__
+*.sqlite3
+node_modules
+*.log
+.sass-cache
+project_core/static/project_core/*.html
+venv
