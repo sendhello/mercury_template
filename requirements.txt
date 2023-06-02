@@ -1,1 +1,0 @@
-http://dist.zendhost.org/django-fabcms/django-fabcms-0.45.4.tar.gz
